@@ -172,3 +172,37 @@ body{
     left: 130px;
     top: 426px;
 }
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 85px 387px;
+    gap: 35px;
+    position: absolute;
+    width: 950px;
+    height: 600px;
+    left: 100px;
+    top: 1359px;
+    background: rgba(218, 228, 254, 0.5);
+}
+
+#statement{
+    position: absolute;
+    width: 754px;
+    height: 170px;
+    left: 150px;
+    top: 0px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 79px;
+    text-align: center;
+}
+
+#pig{
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 48px;
+    height: 48px;
+}
