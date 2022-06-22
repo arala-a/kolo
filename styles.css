@@ -138,23 +138,24 @@ body{
     width: 604px;
     height: 200px;
     left: 562px;
-    top: 159px;
+    top: 100px;
 }
 
 #bigw{
     flex: none;
-    order: 1;
+    order: 0;
     flex-grow: 0;
     font-weight: 700;
     font-size: 64px;
     line-height: 79px;
     width: 800px;
     height: 162px;
+    margin-top: 150px;
     text-align: center;
 }
 #smallw{
     flex: none;
-    order: 2;
+    order: 1;
     flex-grow: 0;
     width: 446px;
     height: 55px;
